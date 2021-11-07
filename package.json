@@ -1,0 +1,24 @@
+{
+  "name": "exercicios.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "another.issues.js",
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe-programador-18/exercicios-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipe-programador-18/exercicios-js/issues"
+  },
+  "homepage": "https://github.com/felipe-programador-18/exercicios-js#readme"
+}
