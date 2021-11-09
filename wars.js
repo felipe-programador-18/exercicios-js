@@ -7,3 +7,4 @@ console.log(smach.reduce(Caught))
 module.exports = {
     Caught
 }
+
