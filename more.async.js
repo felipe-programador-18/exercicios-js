@@ -13,3 +13,17 @@ const regret = async () =>{
 }
 
 regret()
+
+
+const Remeber = rem => new Promise (resolve => {
+    setTimeout(resolve, rem)
+})
+
+//remember more an time new promise and async!!
+const sleep =async () => {
+   console.log('more and practice about threads advantage')
+   await Remeber(2000)
+
+}
+
+sleep()
