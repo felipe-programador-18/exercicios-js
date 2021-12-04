@@ -14,3 +14,8 @@ const more = function(item){
 const fila = [323,232,4335,5654,7777].filter(more)
 console.log(fila)
 
+
+
+const Adoptem = [20,10,320,231]
+const splint = Adoptem.find(Element => Element <100)
+console.log(splint)
