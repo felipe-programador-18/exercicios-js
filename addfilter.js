@@ -1,12 +1,13 @@
-const Vetor = [1,2,1,2,3,5,6,100,7,8,8,12]
+const Vetor = ['aba', 'aba']
 
-const Adoptem = (one, two) =>{
-    if(!one[two]){
-        one[two]=0
+const Adoptem = (one, string) =>{
+    if(!one[string]){
+        one[string]=0
     }
-    one[two] += one[two] + 1
-    return one % 2 === 1
+    one[string] += one[string] + 1
+    return one
 }
 
-const bind = Vetor.filter(Adoptem, {})
-console.log(bind)
+const Test = Vetor.reduce( Adoptem, {})
+
+console.log(Object.keys(Test))
