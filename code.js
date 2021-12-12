@@ -2,7 +2,7 @@
 //For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 
 function squareSum(){
-    let Sun =[1,2,2,3]
+    let Sun =[1,2,2]
     const Caught = (vetorone, vetortwo) => vetorone + vetortwo **2
     return console.log(Sun.reduce(Caught))
 }
