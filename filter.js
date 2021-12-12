@@ -16,3 +16,11 @@ const Double = array.map(function (item){
     return  {original:item , triplicado :item *3 }
 })
 console.log(array, Double)
+
+
+const penseiMore = [321,2321,3213,123,14]
+const Traning = penseiMore.map(function(item){
+    return item * 2
+})
+
+console.log(Traning)
