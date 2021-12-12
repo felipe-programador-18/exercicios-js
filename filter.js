@@ -24,3 +24,20 @@ const Traning = penseiMore.map(function(item){
 })
 
 console.log(Traning)
+
+
+
+const Name = [12,123,32,321,123,50]
+
+const income = Name.map(function(item){
+    return {pai: item **2}
+})
+
+console.log(income)
+
+
+
+let paparwork = `hi there, Im felipe have 27 year old ${27}
+currently i have looking opportunity of work in the area how developers software`
+
+console.log(paparwork)
