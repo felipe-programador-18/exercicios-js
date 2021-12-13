@@ -7,9 +7,11 @@
 const Vetor = [1,6,5,2]
 //const thuth = (one , two) => one + two
 const allow = Vetor.map(function(item){
-    return {teste: item**4, pensa :`the item is ${item + item}`}    
+    return {teste: item**4, pensa :`the item is =  ${item **4}`}    
 })
 
+const again = (one, two) => (one+two)**2
+console.log(Vetor.reduce(again))
 //const pensa = Vetor.reduce(item+1)
 //console.log(Vetor.reduce(thuth))
 console.log(allow)
