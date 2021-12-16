@@ -18,4 +18,4 @@ const main = (params) => {
     return Text
 }
 
-console.log(main())
+console.log(main(12))// test here parameter now!!
