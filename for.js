@@ -18,10 +18,10 @@ console.log(Four())
 const Practice = () =>{
 
     let Morein = 10
-    let Least = 0
+    let Least = ''
 
     for(var i = 0 ; i<10000; i++){
-     const Caught = Math.floor(Math.random()* Morein.lenght)
+     const Caught = Math.floor(Math.random()* Morein)
      Least += Morein.toFixed(Caught, Caught+1)
 
      return Least
