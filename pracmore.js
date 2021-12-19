@@ -6,3 +6,10 @@ const test = (value, index, Arr) => {
 }
 
 Vetor.forEach(test)
+
+
+const cost = [10,20,30,50]
+const Caught = (value) => {
+   console.log('teste here now', value)
+}
+cost.forEach(Caught)
