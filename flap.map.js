@@ -12,3 +12,4 @@ console.log(arr1)
 //training tomorrow again learning about this!!!
 const Greetw = ['hellow', 'is beatiful', 'attitude'].flatMap('')
 console.log(Greetw)
+// practice more and more always !!
