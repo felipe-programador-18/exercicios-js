@@ -14,5 +14,5 @@ const Signal = op => {
     }
     return Caught[op]
 }
-const More = Double(100,2)
+const More = Double(300,2)
 console.log(More)
