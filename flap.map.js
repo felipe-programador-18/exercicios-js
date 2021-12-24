@@ -13,3 +13,6 @@ console.log(arr1)
 const Greetw = ['hellow', 'is beatiful', 'attitude'].flatMap('')
 console.log(Greetw)
 // practice more and more always !!
+
+const Built = ['martins', 'practice', 'studies','always','everyday']
+console.log(Built)
