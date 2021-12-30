@@ -16,3 +16,12 @@ console.log(Greetw)
 
 const Built = ['martins', 'practice', 'studies','always','everyday']
 console.log(Built)
+
+
+const Object = {
+    name: 'Felipe',
+    Sobrename: 'Martins'
+
+}
+
+console.log(Object.name)
