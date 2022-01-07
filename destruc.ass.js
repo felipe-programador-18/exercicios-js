@@ -6,8 +6,8 @@ const obj = {
 
 
 // traning about destructing assisment!!
-const {name, sobrename} = obj
-console.log(obj.name, sobrename)
+const {name, city} = obj
+console.log(obj.name, city)
 
 
 
