@@ -30,3 +30,9 @@ const sleep = time => new Promise(resolve => {
    console.log('each day more i are learning with surely')
  },3)
  console.log(5)
+
+
+
+ setTimeout(() => {
+     console.log('thuoght aobut in you future!!!! defy in presentation another person')
+ }, 10);
