@@ -4,7 +4,6 @@
 
 function validatePIN (pin) {
     return  pin == 4 || 6
-
   }
   const Vetor = [1,2].filter(validatePIN)  
   const Thuoght = Vetor.map(validatePIN) 
