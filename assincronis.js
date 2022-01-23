@@ -2,7 +2,7 @@ let Count = 0
 let Interval = setInterval(() =>{
     console.log('executive for interval of time...')
     Count ++;
-   if(Count > 10){
+   if(Count > 5){
        clearInterval(Interval)
    }
 }, 100)
