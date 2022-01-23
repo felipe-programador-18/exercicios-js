@@ -25,3 +25,12 @@ const Call = (Called) =>{
 }
 
 Call('hi there i can help  you')
+
+//i are remenber how use Json!!
+const Name = {
+    name: 'MARTINS',
+    sobrenome: 'machado',
+    age: 26
+}
+console.log(JSON.stringify(Name))
+
