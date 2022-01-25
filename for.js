@@ -29,3 +29,4 @@ const Practice = () =>{
 }
 
 console.log(Practice())
+console.log(Four())
