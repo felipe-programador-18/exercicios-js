@@ -20,7 +20,7 @@ const test = {
     matricula: 32133,
     age: 20
 }
-const together = {...test , gender: 'female', ...test , numero:989530198}
+const together = {...test , gender: 'female', ...test , numero:989530198, adress:'avenida circular 921'}
 together.age = 100
 
 console.log(test)
