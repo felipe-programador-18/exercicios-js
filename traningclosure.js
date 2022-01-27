@@ -1,8 +1,8 @@
 //practice more and more closure and method of javascript!!
 
-function Traning (nome){
-    const count = 0
 
+function Traning (nome){
+    let count = 0
     return {
         getCount : function(){
              return count 
@@ -16,7 +16,6 @@ function Traning (nome){
        } 
     }
 }
-
 const sobrename = Traning('Programmer')
 sobrename.getIncrement()
 console.log(sobrename.getCount(), sobrename.getName())
