@@ -27,3 +27,18 @@ console.log(anothername.getCount(), anothername.getName())
 const Otherkind = Traning('Felipe')
 Otherkind.getIncrement()
 console.log(Otherkind.getCount(), Otherkind.getName())
+
+
+//another way of create new closure
+
+function kinda (more){
+   
+    let caught = more;
+    return function () {
+        caught++
+        return caught
+    }
+}
+
+const append = kinda(10)
+console.log(append(), append(), append())
