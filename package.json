@@ -4,9 +4,10 @@
   "description": "",
   "main": "another.issues.js",
   "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
     "jest": "^27.3.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
