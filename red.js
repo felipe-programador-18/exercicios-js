@@ -16,3 +16,14 @@ fs.readdir('./', (err, list) =>{
         console.log(list)
     }
 })
+
+
+
+
+const Array = ['felipe', 'programmer', 'dataanother function']
+
+const Father = Array.map(function(item){
+   return {union: item + 'is truth'}
+})
+
+console.log(Father)
