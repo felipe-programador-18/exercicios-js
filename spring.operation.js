@@ -26,3 +26,14 @@ together.age = 100
 console.log(test)
 console.log(together)
 
+
+const Accountbanc = {
+    Nuser: 1893213,
+    Nauser:'Programer Martins',
+    adress:'florianopolis'
+}
+
+const Nubanck = {...Accountbanc ,  local:'avenida das naçoes', ...Accountbanc }
+Nubanck.valor = 20000
+
+console.log(Nubanck)
