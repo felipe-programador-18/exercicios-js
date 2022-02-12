@@ -13,4 +13,6 @@ const Create  = (pai, filho) => {
 }
 
 const Get = Vetor.reduce(Create, {})
+const Key = Object.keys(Get)
 console.log(Get)
+console.log(Key)
