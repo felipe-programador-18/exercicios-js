@@ -16,3 +16,12 @@ const Get = Vetor.reduce(Create, {})
 const Key = Object.keys(Get)
 console.log(Get)
 console.log(Key)
+
+
+//make test and thought in next ways
+const Unique = Key.filter(key => Get[key].occor ===1)
+console.log(Unique)
+
+const More = Unique.map(filho => Get[filho].fi)
+console.log(More)
+
