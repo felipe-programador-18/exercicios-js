@@ -1,4 +1,4 @@
-const Novo = [1,2,3,4,5,1,3,4,3,6,7, 'martins', 'martins', 'felipe martins']
+const Novo = [1,2,3,4,5,6,1,2,3,5, 'martins', 'martins', 'felipe martins']
 
 const Atencao = (agr, value) => {
     if(!agr [value]){
