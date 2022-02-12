@@ -19,3 +19,14 @@ try{
 }catch(error){
     console.log(error)
 }
+
+
+const Tire =  (c,d) =>{
+  return c*d
+}
+
+try{
+  Tire()
+}catch(err){
+  console.log(err)
+}
