@@ -6,7 +6,7 @@ const Caught = (pai, filho) => {
         pai[filho] =0
     }
 
-    pai[filho] += pai [filho] + 1
+    pai[filho] = pai [filho] + 1
     return pai
 }
 
@@ -22,7 +22,7 @@ const Sure = (Mother,mae) => {
    if (!Mother[mae]){
        Mother[mae] = 0
    }
-   Mother[mae] += Mother[mae] + 1
+   Mother[mae] = Mother[mae] + 1
    return Mother
 }
 
