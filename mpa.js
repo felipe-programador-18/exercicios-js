@@ -21,4 +21,8 @@ let Name = {nome:'Felipe Programer', age:12}
 let Fother = Name
 Fother.age = 325
 
+let Fe = {...Name}
+console.log(Fe)
+
+
 console.log(Name)
