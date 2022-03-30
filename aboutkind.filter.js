@@ -11,3 +11,7 @@ const Union = (one, two) => one *two
 console.log(Pure.reduce(Union))
 
 console.log(Vector)
+
+
+
+
