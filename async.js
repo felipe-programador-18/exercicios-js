@@ -45,3 +45,18 @@ async function builtData(){
 }
 
 console.log(builtData())
+
+
+function greetings (time){
+   return new Promise((resolve,reject)=>{
+       setTimeout(()=> resolve(time), time)
+   })
+}
+
+
+ async function received (){
+      const time = await greetings(7000)
+      console.log('practice little bit about async', time)
+ }
+
+ console.log(received())
