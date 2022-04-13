@@ -21,3 +21,14 @@ const Nchangename = {
 }
 // With this command i get change value of variable uses bind!!!
 console.log(Nchangename.caught.bind( {varone2:23}) ())
+
+
+// practice and remmber about object bind, trading values of object
+const Remember = {
+    varone1:323,
+    trade: function (){
+        return this.varone1
+    }
+}
+
+console.log(Remember.trade.bind({varone1:43423}) ())
