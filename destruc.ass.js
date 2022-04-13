@@ -24,3 +24,9 @@ const brand = {
 
 const {nome, nomeone, nomethree} = brand
 console.log(brand.nome)
+
+
+const Cidading =  {namemore:"Programmer", subname:"Martins machado", age:30}
+const {namemore, subname, age} = Cidading
+
+console.log( Cidading.age)
