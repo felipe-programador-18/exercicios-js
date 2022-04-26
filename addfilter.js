@@ -11,3 +11,19 @@ const Adoptem = (one, string) =>{
 const Test = Vetor.reduce( Adoptem, {})
 
 console.log(Object.keys(Test))
+
+
+const Felipe = 'new word'
+if(Felipe === 'new word'){
+    console.log(`${Felipe} i need studies more and more always`)
+}else{
+    console.log('test here practice more and more always')
+}
+
+var numero =0
+for(numero=0;numero <12;numero++){
+    console.log('remmber for ', numero)
+}
+console.log(`${numero} practice to remember more and more`)
+
+
