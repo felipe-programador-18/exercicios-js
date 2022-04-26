@@ -30,6 +30,8 @@ console.log(`${numero} practice to remember more and more`)
 var decrement = 10
 for(decrement=-10; decrement<200; decrement ++){
     console.log('seein decrement', decrement)
-
+    if(decrement <0){
+     console.log('error', decrement)
+    }
 }
 console.log(decrement)
