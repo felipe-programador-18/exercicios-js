@@ -28,3 +28,33 @@ const Decrement = function(j,k,l){
    return j-k*l
 }
 console.log(Decrement(500,100,2))
+
+
+
+const multiplic = (a,b) => a *b
+const Resultade = (op, a,b) => op(a,b)
+const RetornaOps = op=> {
+    const Sinais = {
+    
+        '*': multiplic
+    }
+
+     return Sinais[op]    
+}
+
+const seeing = multiplic (10,50)
+console.log(seeing)
+
+
+const CreateBuild = (z,y) => (z/y)
+const Split = (opop, z,y) => opop(z,y)
+
+const needretunri = opop => {
+    const Felipe ={
+       "/": CreateBuild
+    }
+    return Felipe[opop]
+}
+
+const PractimoreAlways = CreateBuild(1123,4)
+console.log(PractimoreAlways)
