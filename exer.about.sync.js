@@ -10,5 +10,5 @@ console.log(2)
 console.log('Hi im pratice about process async')
 setTimeout(() => {
  console.log('wait here now')
-},4)
+},1000)
 console.log('I go became programer of success in life')
