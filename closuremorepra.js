@@ -8,7 +8,7 @@ function caughtAnimal (animal){
             return countname
         },
         getIncrement : function (){
-            return  countname++
+            return  countname ++
         },
         getNamename : function (){
             return animal
@@ -18,4 +18,9 @@ function caughtAnimal (animal){
 
 const Name = caughtAnimal('dog')
 Name.getIncrement()
-console.log(getCount(), getNamename())
+
+const Prefered = caughtAnimal('Cat')
+Prefered.getIncrement()
+console.log(Prefered.getCount(), Prefered.getNamename(), Prefered.getCount(), Prefered.getNamename())
+
+console.log(Name.getCount(), Name.getNamename(),)
