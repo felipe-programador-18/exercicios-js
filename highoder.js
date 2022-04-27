@@ -11,3 +11,20 @@ const caught =  table.map(function(item){
     return {create:item**2}
 })
 console.log(caught,table)
+
+const Soma = function(a,b) {
+    return a+b
+}
+console.log(Soma(100,12))
+
+const Vezes = function (c,d,e){
+    return c*d-e
+}
+
+console.log(Vezes(100,2,50))
+
+
+const Decrement = function(j,k,l){
+   return j-k*l
+}
+console.log(Decrement(500,100,2))
