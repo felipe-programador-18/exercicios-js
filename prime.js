@@ -18,6 +18,12 @@ const CaughtFilter = function(item){
 const RemberFileter = ['Martins', 'Programmer'].filter(CaughtFilter)
 console.log(RemberFileter)
 
+const buildMore= function(item){
+    return item <1999
+}
+const borns = [2323,1232,3123,213,1995,2002,2052,323].filter(buildMore)
+console.log("more and more testing", borns)
+
 
 //practice about foreEach
 RemberFileter.forEach(Element => console.log(Element === 'Martins'))
