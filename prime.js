@@ -12,6 +12,7 @@ console.log(Vector)
 
 
 //practice more about filter
+//add more informatoin
 const CaughtFilter = function(item){
     return item === 'Martins'
 }
