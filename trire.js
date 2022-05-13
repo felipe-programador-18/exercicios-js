@@ -10,6 +10,13 @@ const BeSmarter = Vector.reduce(VerifyOnlyPeer)
 console.log(`testing all code only sum peer ${BeSmarter}`)
 
 
+// seems is same filter, but another way
+const Vetor = [10,20,343,3,4]
+const Ehpeer = num => num % 2 === 0
+const Peer = Vetor.filter(Ehpeer)
+const PureFuncion = (a,b) => a+b
+const AnotherWay = Peer.reduce(PureFuncion)
+console.log(`interpolation string verify another way to make same code filter ${Peer}, and see another reducer of another way ${AnotherWay}`)
 
 
 
