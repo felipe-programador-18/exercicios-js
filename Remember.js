@@ -26,3 +26,27 @@ const Resolve = (mae, filho) => {
 
 const Pure = names.reduce(Resolve,{})
 console.log(Pure)
+
+
+const felipe = 32
+const DontReepet = ['programer', 81,18,48,1233,2321, 'martins', felipe,'felipe', 'felipe']
+
+const Aloof = (think, thought) => {
+    if(!think[thought]){
+        think[thought]=0
+    }
+    think[thought] = think[thought]+1
+    return think
+}
+
+const Make =  DontReepet.reduce(Aloof,{})
+console.log(Make)
+
+
+
+
+const Lire =  function(item){
+    return item !== Number
+}
+const ctor = [12,232,213,"felippe", 'programmer', 1,23,4,5].filter(Lire)
+console.log(ctor)
