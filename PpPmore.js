@@ -19,3 +19,12 @@ const Release = Namenumber.reduce(Remain,{})
 const chave = Object.keys(Release)
 const Search = chave.filter(together => Release[together].sum  === 1)
 console.log(Search)
+
+
+const Subore = (a) => {
+   //is type 1*1
+    return a*= -1
+}
+
+const adidng = Subore(12)
+console.log(adidng)
