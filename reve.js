@@ -7,3 +7,12 @@ function digitize(n) {
 
 const Thoughtb =  digitize(32)
 console.log(Thoughtb)
+
+const Pratice = (a) =>{
+    let pensa = a+''
+    pensa = pensa.split("").reverse().map(x => Number(x))
+    return pensa
+}
+
+const Call =  Pratice(323213)
+console.log(Call)
