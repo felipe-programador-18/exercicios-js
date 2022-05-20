@@ -27,4 +27,15 @@ const place =  toughtSolve(503434)
 console.log(place)
 
 
-const 
+const kindMore = (c) => {
+    let Say= c+''
+    Say =
+    Say
+    .split('')
+    .reverse()
+    .map(lipe => Number(lipe))
+    return Say
+}
+
+const Kire= kindMore(3232)
+console.log(Kire)
