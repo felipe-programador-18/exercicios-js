@@ -16,3 +16,15 @@ const Pratice = (a) =>{
 
 const Call =  Pratice(323213)
 console.log(Call)
+
+const toughtSolve = (b) =>{
+   let more = b+''
+   more = more.split('').reverse().map(x => Number (x))
+   return more
+}
+ 
+const place =  toughtSolve(503434)
+console.log(place)
+
+
+const 
