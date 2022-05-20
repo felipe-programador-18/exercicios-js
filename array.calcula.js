@@ -6,8 +6,9 @@
 //const pense = Vector.filter()
 //console.log(Vector.reduce(tought))
 const filtermore =  function(item){
-    return item !== 0
+    return item !== 0 & item > 0
 }
 let Vector = [1,5.2,4,0,,0,0,0,-1].filter(filtermore)
+console.log(Vector)
 const Pensa = (a,b) => a+b
 console.log(Vector.reduce(Pensa))
