@@ -1,10 +1,8 @@
-const multiply = (a,b) => a*b || a+b 
-const operation = ( a,b) => (a,b)
-
-
+const multiply = (a,b) => a*b  
+const operation = (op,a,b) => (a,b)
 
 const split = (a,b) => a/b
-const newoperation = (op, a,b) => op(a,b)
+const newoperation = ( op , a,b) => op(a,b)
 
 const sum = (a,b) => a+b
 const newoperationsun = (op, a,b) => op(a,b)
