@@ -21,6 +21,6 @@ const Pire = anotherGure(54250)
 console.log(Pire)
 
 
-const feet = [321321312]
-const save = feet.split('')
+const feet = 'thought in solution to winner in the life'
+const save = feet.split('').reverse()
 console.log(save)
