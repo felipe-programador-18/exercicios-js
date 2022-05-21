@@ -1,5 +1,7 @@
-const multiply = (a,b) => a*b
-const operation = (op, a,b) => op(a,b)
+const multiply = (a,b) => a*b || a+b 
+const operation = ( a,b) => (a,b)
+
+
 
 const split = (a,b) => a/b
 const newoperation = (op, a,b) => op(a,b)
@@ -21,6 +23,10 @@ const basicOp = op =>{
 }
 
 console.log((basicOp('x',10,2)))
+
+const abcmore = operation(2,3)
+console.log(abcmore)
+
 
 const place = basicOp(12,'x',3)
 console.log(place)
