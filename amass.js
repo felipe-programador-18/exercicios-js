@@ -24,3 +24,8 @@ console.log(Pire)
 const feet = 'thought in solution to winner in the life'
 const save = feet.split('').reverse()
 console.log(save)
+
+
+const newPhase = 'Think always in grow in life!! keep go on!'
+const commas = newPhase.split('').reverse()
+console.log(commas)
