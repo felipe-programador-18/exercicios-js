@@ -1,6 +1,13 @@
-//issues very interesting to solve them!!
-const getRealFloor = (n) => {
-  return n >0 || n<15-2 
+
+
+const getRealFloor = (n) =>{
+ n= 15
+for (i=1;i<=16;i++){
+    if(i==13){
+        continue
+    }
+    console.log(i)
 }
-const floor = [1,2,3,4].filter(getRealFloor)
-console.log(floor)
+};
+
+// 
