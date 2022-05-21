@@ -3,3 +3,11 @@ Smore.slice(1,2)
 console.log(Smore)
 
 //tomorrow practice about more splice!!! and make some issues!!
+
+
+const makePore =  ['one', 'two','cre','programmer','makemore']
+console.log(makePore.slice(2))
+
+let vector = ['on', 'off', 'programmer','fast','poor','rich']
+//theoretical is fast, poor and rich
+console.log(vector.slice(3))
