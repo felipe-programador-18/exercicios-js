@@ -20,3 +20,7 @@ const anotherGure = (b) =>{
 const Pire = anotherGure(54250)
 console.log(Pire)
 
+
+const feet = [321321312]
+const save = feet.split('')
+console.log(save)
