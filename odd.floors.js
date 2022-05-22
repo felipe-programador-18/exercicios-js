@@ -10,4 +10,4 @@ for (i=1;i<=16;i++){
 }
 };
 
-// 
+// practice about that of learning
