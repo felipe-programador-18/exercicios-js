@@ -8,4 +8,6 @@ const changeLetter = (char) =>{
   }
 
   return char.toLowerCase()
-}  
+}
+
+const togetherString = changeLetter('pratice about that')
