@@ -3,13 +3,11 @@
 const Setting = {
     name:'Felipe programmer',
     sobrename:'martins',
-    aplilaide:'gika'
+    aplilaide:'gikaaaaaaaa'
 }
 
 const {name, sobrename} = Setting
-console.log(Setting.name, sobrename)
-
-
+console.log(Setting.aplilaide)
 
 const More = {
     brandone: 'nike',
