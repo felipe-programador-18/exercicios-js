@@ -43,3 +43,9 @@ if(Noutes < 0){
     console.log('Your number is high to get achieve finance your cars')
 }
 console.log(`decreased each time that I have to adding more one itens ${Noutes}`)
+
+
+
+
+const PracticeMore = ["Felipe", "programmer", "more and more"]
+PracticeMore.forEach(newMore => console.log(newMore + "I will win the life"+newMore.concat(" Try to practice a bit more")))
