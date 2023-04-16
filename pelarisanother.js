@@ -10,5 +10,5 @@ const howMuchILoveYou= (n)  => {
      return phrases[(n - 1) % phrases.length] 
 }
 
-const howThought = howMuchILoveYou(1)
+const howThought = howMuchILoveYou(6)
 console.log(howThought)
