@@ -34,3 +34,13 @@ const {seeing, seeingset} = laught
 console.log(laught.trademarks, laught.trademarksone)
 
 
+
+
+const getNamesOther = {
+    nametwo: "martins",
+    giveitall: "always",
+    thebestoftwo:"nop"
+}
+
+const { nametwo, giveitall } = getNamesOther 
+console.log( getNamesOther.nametwo)
