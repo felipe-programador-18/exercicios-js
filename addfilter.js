@@ -35,3 +35,5 @@ for(decrement=-10; decrement<200; decrement ++){
     }
 }
 console.log(decrement)
+
+// just put my hands on the code now!!
