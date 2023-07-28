@@ -1,13 +1,13 @@
 
 
-const Names = (a:string, b:string) => {
+const Names:string = (a:string, b:string) => {
   return a+b
 }
 
 console.log(Names('Felipe', 'programmer'))
 
 
-const calcNumber = (b: number, c: number) => {
+const calcNumber:number = (b: number, c: number) => number {
   return b+c
 }
 
