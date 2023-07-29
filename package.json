@@ -6,6 +6,7 @@
     "axios": "^0.25.0",
     "express": "^4.17.2",
     "jest": "^27.3.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
   "scripts": {
