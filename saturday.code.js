@@ -14,4 +14,9 @@ const makeFilter = (item) => {
 }
 const ManageAll = numberToSum.filter(makeFilter)
 
-console.log(ManageAll, ' ==== just to add together my filter number here now ===', ManageAll )
+console.log(ManageAll, ' ==== just to add together my filter number here now ===', ManageAll)
+
+
+const myNames = { nameone: "felipe", nametwo: "programmer", namethree: "martins", namefour: "I here to give the all" }
+const toSave = {...myNames, email:"machadofelipe2016@outlook.com"}.nameone
+console.log(toSave)
