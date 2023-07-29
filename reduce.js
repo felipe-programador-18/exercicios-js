@@ -18,5 +18,11 @@ const PracticeReduce = [12,32,545,123,5435,123,34234,123]
 const Together = (union, uniontwo) => union + uniontwo
 
 
-console.log(Shifted)
+console.log('=== I have here now?? ', Shifted)
 console.log(PracticeReduce.reduce(Together))
+
+
+
+const getAllNumber = [12, 3, 2, 234, 23, 23]
+const MakeSumHereNow = (a, b) => a * b 
+console.log('testing my calc here bro !! ', getAllNumber.reduce(MakeSumHereNow))
