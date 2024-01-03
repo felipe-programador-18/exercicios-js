@@ -5,22 +5,14 @@
 function validatePIN () {
   pin = 4 && 6 
   
-  if(pin == 4){
-    return  true
-  }
-  else if(pin == 6) {
-    return true
-  }
-  else if(pin !== 4 && 6){
-    return false
-  }
+  
   
 }
 
 
  const manage = validatePIN(10)
  
- console.log(manage)
+// console.log(manage)
 
  
 
@@ -31,3 +23,20 @@ function validatePIN () {
 // }else{
  // console.log("nothing here")
 // }
+
+
+let OtherTesting = 6
+
+if(OtherTesting == 4){
+  console.log(true)
+}
+else if(OtherTesting == 6){
+  console.log(true)
+}
+else{
+  console.log(false)
+}
+
+
+
+
