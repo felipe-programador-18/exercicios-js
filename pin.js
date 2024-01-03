@@ -2,12 +2,32 @@
 //but exactly 4 digits or exactly 6 digits.
 //If the function is passed a valid PIN string, return true, else return false.
 
-function validatePIN (pin) {
-    return  pin == 4 || 6
+function validatePIN () {
+  pin = 4 && 6 
+  
+  if(pin == 4){
+    return  true
   }
-  const Vetor = [1,2].filter(validatePIN)  
-  const Thuoght = Vetor.map(validatePIN) 
+  else if(pin == 6) {
+    return true
+  }
+  else if(pin !== 4 && 6){
+    return false
+  }
+  
+}
 
-  console.log(Vetor)
-  console.log(Thuoght)
-   
+
+ const manage = validatePIN(10)
+ 
+ console.log(manage)
+
+ 
+
+ //l//et testing = 13
+ 
+ //i//f(testing !== 13){
+ // console.log("I would like to testing a bit this small structure", testing)
+// }else{
+ // console.log("nothing here")
+// }

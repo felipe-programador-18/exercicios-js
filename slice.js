@@ -11,3 +11,8 @@ console.log(makePore.slice(2))
 let vector = ['on', 'off', 'programmer','fast','poor','rich']
 //theoretical is fast, poor and rich
 console.log(vector.slice(3))
+
+
+
+let OtherTesting = ['testing', 'more ', 'other time','creating','put hands on code'].slice(2).join(vector)
+console.log(OtherTesting)
