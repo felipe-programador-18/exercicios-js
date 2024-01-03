@@ -7,4 +7,8 @@ const Employer = {
 }
 
 const addingInformation = {...Employer, conjuge:'casado com loira', ...Employer }
+let lemmeAddOtherInformation = {...Employer, email:"machadofelipe2016@outlook.com"}
 console.log(addingInformation)
+
+
+console.log("testing here now", lemmeAddOtherInformation)
