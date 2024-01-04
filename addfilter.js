@@ -19,8 +19,7 @@ console.table(Object.keys(Test))
 
 // lemme suppose that i have to create one function to elimitate the equal things
 
-let CreateOne = [{id:1, name:"felipe", age:28, status:single},{id:2, name:"felipe", age:28, status:single}, {id:3, name:"felipe", age:28, status:single}, {id:4, name:"felipe", age:28, status:single}
-, {id:5, name:"felipe", age:28, status:single}, {id:1, name:"felipe", age:28, status:single}, {id:7, name:"felipe", age:30, status:married}]
+let CreateOne =["felipe", "martins", "felipe"]
 
 
 const Thought = (certo,errado) => {
@@ -30,11 +29,15 @@ const Thought = (certo,errado) => {
         certo[errado] = 0
     }
     
-    certo[errado] += certo[erradp + 1]
+    certo[errado] += certo[errado] +1
+    
     return certo
 
 }
 
 const ThouhgtMore = CreateOne.reduce(Thought, {})
+console.log('testing my code here now',ThouhgtMore)
 
-console.log(ThouhgtMore)
+let managing = Object.keys(ThouhgtMore)
+
+console.log(managing)
