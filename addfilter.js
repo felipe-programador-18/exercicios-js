@@ -1,4 +1,4 @@
-const Vetor = [1,2,3,4,5,6,7,1,3,4,10]
+const Vetor = [1,2,3,4,5,6,7,1,3,4,10,1,1,1,1,1,1]
 
 const Adoptem = (one, string) =>{
     if(!one[string]){
@@ -10,30 +10,31 @@ const Adoptem = (one, string) =>{
 
 const Test = Vetor.reduce( Adoptem, {})
 
-console.log(Object.keys(Test))
+console.table(Object.keys(Test))
 
 
-const Felipe = 'new word'
-if(Felipe === 'new word'){
-    console.log(`${Felipe} i need studies more and more always`)
-}else{
-    console.log('test here practice more and more always')
-}
-
-var numero =0
-for(numero=0;numero <12;numero++){
-    console.log('remmber for ', numero)
-}
-console.log(`${numero} practice to remember more and more`)
 
 
-var decrement = 10
-for(decrement=-10; decrement<200; decrement ++){
-    console.log('seein decrement', decrement)
-    if(decrement <0){
-     console.log('error', decrement)
+
+
+// lemme suppose that i have to create one function to elimitate the equal things
+
+let CreateOne = [{id:1, name:"felipe", age:28, status:single},{id:2, name:"felipe", age:28, status:single}, {id:3, name:"felipe", age:28, status:single}, {id:4, name:"felipe", age:28, status:single}
+, {id:5, name:"felipe", age:28, status:single}, {id:1, name:"felipe", age:28, status:single}, {id:7, name:"felipe", age:30, status:married}]
+
+
+const Thought = (certo,errado) => {
+    
+    // vendo se o paramento com nome errado existe dentro do certo
+    if(!certo[errado]){
+        certo[errado] = 0
     }
-}
-console.log(decrement)
+    
+    certo[errado] += certo[erradp + 1]
+    return certo
 
-// just put my hands on the code now!!
+}
+
+const ThouhgtMore = CreateOne.reduce(Thought, {})
+
+console.log(ThouhgtMore)
