@@ -41,3 +41,24 @@ console.log('testing my code here now',ThouhgtMore)
 let managing = Object.keys(ThouhgtMore)
 
 console.log(managing)
+
+
+
+
+
+
+
+const OtherWay = (item) => {
+    return item !== "felipe"
+}
+
+
+// creating another function
+let SeparaOsDiferentes = ["felipe","martins","felipe","testing","testing"].filter(OtherWay)
+console.log(SeparaOsDiferentes)
+
+
+
+
+
+
