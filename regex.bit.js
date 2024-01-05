@@ -33,5 +33,7 @@ const ThoughtBro = new RegExp(manageAll)
 // BASICAMENTE O REGEX NESSE CASO QUANDO EU PRECISE BUSCAR VIA SEARCH DIGITANDO ELE NÃO DISTINGUE POR 
 // LETRAS MAISCULAS OU MINUSCULAS
 
-const photos = await PhotoUser.find({title: new RegExp(q,'i')}).exec()
-  console.log('my photos here', photos)
+//const photos = await PhotoUser.find({title: new RegExp(q,'i')}).exec()
+  //console.log('my photos here', photos)
+
+
