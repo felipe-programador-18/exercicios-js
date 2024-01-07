@@ -29,5 +29,5 @@ console.log(CaughtMe)
 
 const PracticeBit = 'my name is Felipe'
 console.log(PracticeBit.split(" ").map((newtesting) => {
-    return newtesting + " just put my hands on code"
+    return newtesting + " just put my hands on code, keep it up Felipe Martins thos good"
 }))
