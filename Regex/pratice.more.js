@@ -20,3 +20,4 @@ function MoveFaster (NoneNumber){
 }
 
 
+MoveFaster("put my hands in money 23123218923")
