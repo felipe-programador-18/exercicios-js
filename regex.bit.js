@@ -37,3 +37,39 @@ const ThoughtBro = new RegExp(manageAll)
   //console.log('my photos here', photos)
 
 
+// this is very simple 
+let Myname = 'i have to typing this teto to see my reaction, texto, texto'
+let phrasees = /texto/g
+const makehappen = Myname.match(phrasees)
+
+console.log(makehappen)
+
+
+// let do more one testing here now!
+
+
+
+let EmailMore = 'machadofelipe2016@outlook.com'
+let Caught = /e/i;
+
+const MakeFunny = EmailMore.match(Caught)
+console.log(MakeFunny)
+
+
+
+
+let LemmeSeeEmail = /@/g
+let TestEmail = 'machadofelipeoutlookcom'
+
+const Deeply = TestEmail.match(LemmeSeeEmail)
+console.log(Deeply)
+
+
+
+// for now testing my test
+
+let NameFelipe = 'felipe'
+let regex = /felipe/g;
+let dispacthMore =  regex.test(NameFelipe);
+
+console.log(dispacthMore)
