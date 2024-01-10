@@ -1,14 +1,13 @@
 
 
 
-function callAll (op) {  
-    return op
+let testing = ["*", "/"]
+
+
+function double (one,b){
+    return one*b
 }
 
 
-let ManageOp = {
-    a:"*"
-}
-
- const manage = callAll(ManageOp.a)
- console.log(manage)
+const manage = double(12,32)
+console.log(manage)
