@@ -1,0 +1,151 @@
+let codeString = "code1, code, 2code3code4";
+
+// Split the code string by commas
+let codes = codeString.split(',');
+
+// Log each code
+codes.forEach(code => {
+    console.log(code);
+});
+
+
+
+// Your array of codes
+let codesArray = ["code 1code2code3code4"];
+
+
+
+
+
+
+
+
+
+
+// Seu texto
+let texto = [
+    "GPTW2023#35026",
+    "GPTW2023#35054",
+    "GPTW2023#34987",
+    "GPTW2023#34942",
+    "GPTW2023#34748",
+    "GPTW2023#34741",
+    "GPTW2023#34746",
+    "GPTW2023#34526",
+    "GPTW2023#35031",
+    "GPTW2023#34410",
+    "GPTW2023#34510",
+    "GPTW2023#34324",
+    "GPTW2023#35520",
+    "GPTW2023#35522",
+    "GPTW2023#34314",
+    "GPTW2023#34017",
+    "GPTW2023#33831",
+    "GPTW2023#33646",
+    "GPTW2023#33647",
+    "GPTW2023#33648",
+    "GPTW2023#33627",
+    "GPTW2023#33628",
+    "GPTW2023#33629",
+    "GPTW2023#33630",
+    "GPTW2023#33705",
+    "GPTW2023#33721",
+    "GPTW2023#35453",
+    "GPTW2023#35455",
+    "GPTW2023#33468",
+    "GPTW2023#33471",
+    "GPTW2023#34767",
+    "GPTW2023#34768",
+    "GPTW2023#34769",
+    "GPTW2023#34772",
+    "GPTW2023#34773",
+    "GPTW2023#34775",
+    "GPTW2023#34777",
+    "GPTW2023#33380",
+    "GPTW2023#33220",
+    "GPTW2023#34245",
+    "GPTW2023#33039",
+    "GPTW2023#33044",
+    "GPTW2023#33045",
+    "GPTW2022#32623",
+    "GPTW2022#32599",
+    "GPTW2022#32600",
+    "GPTW2022#32601",
+    "GPTW2022#32603",
+    "GPTW2023#33055",
+    "GPTW2022#31986",
+    "GPTW2022#31986",
+    "GPTW2023#32998",
+    "GPTW2023#32999",
+    "GPTW2023#33000",
+    "GPTW2022#31402",
+    "GPTW2022#31430",
+    "GPTW2022#30841",
+    "GPTW2022#30499",
+    "GPTW2023#33302",
+    "GPTW2022#29816",
+    "GPTW2022#29834",
+    "GPTW2023#34108",
+    "GPTW2023#34109",
+    "GPTW2022#29107",
+    "GPTW2022#29780",
+    "GPTW2022#29780",
+    "GPTW2022#28587",
+    "GPTW2023#34366",
+    "GPTW2023#34088",
+    "GPTW2023#34089",
+    "GPTW2022#28548",
+    "GPTW2022#29084",
+    "GPTW2022#29086",
+    "GPTW2022#32160",
+    "GPTW2021#24392",
+    "GPTW2021#24935",
+    "GPTW2021#25162",
+    "GPTW2021#25260",
+    "GPTW2021#25878",
+    "GPTW2021#25931",
+    "GPTW2021#26030",
+    "GPTW2021#26204",
+    "GPTW2021#26286",
+    "GPTW2021#26473",
+    "GPTW2021#26590",
+    "GPTW2021#26694",
+    "GPTW2021#26715",
+    "GPTW2021#26787",
+    "GPTW2021#26903",
+    "GPTW2021#26964",
+    "GPTW2021#27076",
+    "GPTW2021#27099",
+    "GPTW2021#27099",
+    "GPTW2021#27123",
+    "GPTW2021#27373",
+    "GPTW2021#27469",
+    "GPTW2021#27541",
+    "GPTW2022#27613",
+    "GPTW2022#27650",
+    "GPTW2022#27759",
+    "GPTW2022#27764",
+    "GPTW2022#27947",
+    "GPTW2022#27983",
+    "GPTW2022#27985",
+    "GPTW2022#27997",
+    "GPTW2022#28000",
+    "GPTW2022#28062",
+    "GPTW2022#28191",
+    "GPTW2022#28300",
+    "GPTW2022#28300",
+    "GPTW2022#28485",
+    "GPTW2022#28498",
+    "GPTW2022#28574",
+    "GPTW2022#28574",
+    "GPTW2022#28578",
+    "GPTW2022#28591", ]
+    
+// Divide o texto em palavras
+let palavras = texto.split(' ');
+
+// Adiciona vírgulas entre as palavras
+let textoComVirgulas = palavras.join(',');
+
+// Loga o texto resultante
+console.log(textoComVirgulas);
