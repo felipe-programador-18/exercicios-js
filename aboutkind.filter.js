@@ -15,3 +15,15 @@ console.log(Vector)
 
 
 
+const RemindAbit = [12,3,43,54,23,45,234,5435,234].map(item => item *2)
+
+function CalcSomething (item) {
+    return item * 2
+}
+
+let maningHere = RemindAbit
+
+console.log(maningHere)
+
+ let doubleDown =CalcSomething(132,23) 
+ console.log("just putting my hands on code",doubleDown)
