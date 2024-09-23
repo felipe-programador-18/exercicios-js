@@ -62,3 +62,10 @@ console.log(SeparaOsDiferentes)
 
 
 
+const Havetocomeback = [1,2,3,44,5,6,7]
+
+const ManageAllMorethanthat= Havetocomeback.map((item) => item * 2)
+console.log(ManageAllMorethanthat)
+
+const SumAll = [22,44,66,12,55].reduce( (a ,b) => a*b )
+console.log(SumAll)

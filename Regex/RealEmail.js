@@ -13,3 +13,18 @@ const testing ='FELipe'
 const Cutting = /E|e/g
 
 console.log(testing.match(Cutting))
+
+
+
+
+
+
+
+//const Testing = (a) => {
+  //  return a='more, that, more, two, three, four'
+//}
+
+
+let Phraseeses = ['more that one reasons']
+const Monage = Phraseeses.find(((element) => element==  "more"))
+console.log('testing out here now', Monage)
