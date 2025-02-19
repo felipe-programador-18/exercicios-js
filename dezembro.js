@@ -35,6 +35,17 @@ function TestingAlert (phrase){
     return phrase < 24
 }
 
-let phrase='This number is smaller than 24'
-let count = [12,2].reduce((a,b) => a*b).filter(TestingAlert())
-console.log(`just to come back to practice a bit ${count}`)
+//let phrase='This number is smaller than 24'
+//let count = [12,2].reduce((a,b) => a*b).filter(TestingAlert())
+// console.log(`just to come back to practice a bit ${count}`)
+
+
+
+const willcomeback=123123;
+console.log(willcomeback.toString())
+
+// I have to just to put my hands on code again, for now my vacation is finally soon, thats it!!
+
+const NumberMore = [1,2,3,5,6,2]
+const ReceiveMore= NumberMore.map((item) => item *2 )
+console.log(`just to structure this small code to remember a lot things here`, ReceiveMore)

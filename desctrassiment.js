@@ -44,3 +44,9 @@ const getNamesOther = {
 
 const { nametwo, giveitall } = getNamesOther 
 console.log( getNamesOther.nametwo)
+
+
+
+const ComeBackHereNow = {kinda:'martins',age:24, martins:'Felipe pé de anjo'}
+const {kinda, martins}= ComeBackHereNow
+console.log(ComeBackHereNow.martins, ComeBackHereNow.kinda)
