@@ -30,4 +30,7 @@ console.log(maningHere)
 
 
 
+ const Lembrando=['felipe','martins','machado','martins','machado']
+
+
 
