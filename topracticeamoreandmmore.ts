@@ -51,3 +51,6 @@ const PracticeMore = ["Felipe", "programmer", "more and more"]
 PracticeMore.forEach(newMore => console.log(newMore + "I will win the life"+newMore.concat(" Try to practice a bit more")))
 
 
+
+let FelipeMore = [1,2,4,5,6,2,3,4].reduce((a:number,b:number) => a+b)
+console.log(FelipeMore)

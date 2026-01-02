@@ -69,3 +69,13 @@ console.log(ManageAllMorethanthat)
 
 const SumAll = [22,44,66,12,55].reduce( (a ,b) => a*b )
 console.log(SumAll)
+
+
+const tobacktocode="eu voltei a programar"
+console.log(tobacktocode)
+
+const PraticeMoreAndMore= [22, 55,90,180].reduce((f,g) => f*g)
+console.log(PraticeMoreAndMore)
+
+const colocamap= [2,4,6,8,10].map((newitem)=> newitem *3)
+console.log(colocamap.concat('e'))
