@@ -22,7 +22,16 @@ console.log(lire)
 
 
 let newSpace = ''
-for(var i=0; i<10; i++){
+for(var i=0; i<11; i++){
     newSpace = newSpace+i
 }
 console.log('practice little bit for', newSpace)
+
+
+var PraticandoMais= ''
+for(var i=1; i<12; i++){
+    PraticandoMais= PraticandoMais+i
+}
+
+
+console.log(`Colocando a mão na massa ${PraticandoMais}`)
