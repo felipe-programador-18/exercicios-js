@@ -83,8 +83,47 @@ async function MostrandoProdutos(MyProducts){
     }
 }
 
-MostrandoProdutos(MyProducts).then((respostas) =>{
-    console.log('meus produtos recebidos ', respostas )
+//MostrandoProdutos(MyProducts).then((respostas) =>{
+  //  console.log('meus produtos recebidos ', respostas )
+//})
+
+
+
+
+let MyUsers=[{id:1,nome:'felipe', pedidoPrato:'hamburguer vegano', valor:45, pedidoBebida:'heineken', outrovalor:16 },{id:2,nome:'martins', pedidoPrato:'pizza brocolis', valor:60, pedidoBebida:'coca-cola', outrovalor:6 },{id:3,nome:'julia', pedidoPrato:'sushi vegano', valor:80,pedidoBebida:'coca-cola', outrovalor:6},{id:4,nome:'ana', pedidoPrato:'salada completa', valor:30, pedidoBebida:'coca-cola', outrovalor:6},{id:5,nome:'carlos', pedidoPrato:'lasanha vegetariana', valor:70,pedidoBebida:'coca-cola', outrovalor:6}]
+
+const Umpedidoporvez= MyUsers.map((item) =>{
+    return {cliente:item.nome, pedido:item.pedidoPrato, beber: item.pedidoBebida, valorUni1:item.valor, valorUnitwo: item.outrovalor, valorTotal: item.valor + item.outrovalor}
 })
+
+const ValorDeTodosPedidos = Umpedidoporvez.reduce((acumulador, itens) =>{
+    return acumulador + itens.valorTotal
+},0)
+
+console.log('pedidos dos clientes', Umpedidoporvez)
+//console.log('o valor total de todos os pedidos é deR$:', ValorDeTodosPedidos)
+
+function RecebendoPedidos (ValorDeTodosPedidos){
+    return new Promise((resolve, reject) =>{
+        setTimeout(() =>{
+            resolve(ValorDeTodosPedidos)
+        }, 3000)
+    })
+}
+
+async function MostrandoPedidosPausados(ValorDeTodosPedidos){
+     try {
+        const see = await RecebendoPedidos(ValorDeTodosPedidos)
+        return see
+        
+     } catch (error) {
+        console.log('erro ao mostrar os pedidos', error)
+     }
+}
+
+MostrandoPedidosPausados(ValorDeTodosPedidos).then((resposta) =>{
+    console.log('o valor de todos os pedidos e de R$:', resposta)
+})
+
 
 
