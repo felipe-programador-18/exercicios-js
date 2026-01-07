@@ -17,7 +17,7 @@ async function buscandoEle (){
     }
 }
 
-buscandoEle();
+//buscandoEle();
 
 
 //Exercício 8 — Validação assíncrona
@@ -56,21 +56,21 @@ async function validandoIdade (idade){
         return error 
     }
 }
-(validandoIdade(10))
+//(validandoIdade(10))
 
 
-const Produtos=['notebook','smartphone','tablet','monitor','fones de ouvido','teclado mecânico']
-const MyProducts = Produtos.map((item, index) =>{
-    return {itemId:index +1, itemName:item}
+const Produtos=[{id:1 ,nome:'notebook', preço:99},{id:2,nome:'smartphone', preço:500},{id:3,nome:'tablet', preço:300},{id:4,nome:'monitor', preço:200},{id:5,nome:'fones de ouvido', preço:10},{id:6,nome:'teclado mecânico', preço:150}]
+const MyProducts = Produtos.filter((item) => item.preço >=100).map((item) =>{
+    return {produto:item.nome, valor:item.preço}
 })
 
-// console.log('lançando meus produtos ',MyProducts)
+//console.log('lançando meus produtos ',MyProducts)
 
 const RecebendoProdutos =(MyProducts) => { 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(MyProducts)
-        },10000)
+        },5000)
     })
 }
 
@@ -83,7 +83,8 @@ async function MostrandoProdutos(MyProducts){
     }
 }
 
-MostrandoProdutos(MyProducts).then((resposta) =>{
-    console.log('meus produtos recebidos ', resposta)
+MostrandoProdutos(MyProducts).then((respostas) =>{
+    console.log('meus produtos recebidos ', respostas )
 })
+
 
