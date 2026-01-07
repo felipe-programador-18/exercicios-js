@@ -57,3 +57,33 @@ async function validandoIdade (idade){
     }
 }
 (validandoIdade(10))
+
+
+const Produtos=['notebook','smartphone','tablet','monitor','fones de ouvido','teclado mecânico']
+const MyProducts = Produtos.map((item, index) =>{
+    return {itemId:index +1, itemName:item}
+})
+
+// console.log('lançando meus produtos ',MyProducts)
+
+const RecebendoProdutos =(MyProducts) => { 
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(MyProducts)
+        },10000)
+    })
+}
+
+async function MostrandoProdutos(MyProducts){
+    try {
+        const MostrandoEles = await RecebendoProdutos(MyProducts)
+        return MostrandoEles;  
+    } catch (error) {
+        console.log('erro ao mostrar produtos', error)
+    }
+}
+
+MostrandoProdutos(MyProducts).then((resposta) =>{
+    console.log('meus produtos recebidos ', resposta)
+})
+
