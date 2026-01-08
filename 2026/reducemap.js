@@ -13,3 +13,21 @@ usuarios.forEach(RecebendoUsers => {
 });
 
 console.log('meus usuarios com status de idade', RecebendoUsers)
+
+
+
+
+const MesmoUsuarios = [
+  { nome: 'Ana', idade: 17 },
+  { nome: 'Bruno', idade: 25 },
+  { nome: 'Carla', idade: 30 }
+];
+
+const VerificandoMesmoUsuarios= MesmoUsuarios.map((item) => {
+    return {
+        ...item,
+        status: item.idade >= 18 ? 'maior de idade' : 'menor de idade'
+    }
+})
+
+console.log('verificando meus usuarios novamente', VerificandoMesmoUsuarios)
