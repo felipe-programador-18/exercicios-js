@@ -65,3 +65,6 @@ function SaldoBancario (meuSaldo){
 
 const Meusaldo = SaldoBancario(10)
 console.log(Meusaldo())
+
+
+const MyDados =[{id:1, nome:'felipe', apelido:'pe de anjo', sobrenome:'eu vou vencer'}]
