@@ -14,6 +14,7 @@ const recebe= felipemartios.filter(item => item >=18)
 console.log(recebe)
 
 
+
 const produtos = [
   { nome: "Teclado", estoque: 10 },
   { nome: "Mouse", estoque: 0 },

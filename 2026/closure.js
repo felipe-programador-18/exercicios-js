@@ -64,7 +64,16 @@ function SaldoBancario (meuSaldo){
 }
 
 const Meusaldo = SaldoBancario(10)
-console.log(Meusaldo())
+// console.log(Meusaldo())
 
 
 const MyDados =[{id:1, nome:'felipe', apelido:'pe de anjo', sobrenome:'eu vou vencer'}]
+
+const Recebendo = MyDados.map((item) => {
+  return{
+    ...item,
+    pegaItem: `pega meu apelido ${item.apelido}, ${item.nome}, ${item.id}`
+  }
+})
+
+console.log(Recebendo)

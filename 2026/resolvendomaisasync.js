@@ -127,3 +127,34 @@ MostrandoPedidosPausados(ValorDeTodosPedidos).then((resposta) =>{
 
 
 
+let UsersId =[{id:1, nome:'Felipe martins', age:30}, {id:2, nome:'Aprovado', age:25},
+{id:3, nome:'bartolomeu', age:20 }]
+
+const AdmDates = UsersId.map((item) => {
+    return {pegaId:item.id, pegaNome:item.nome, pegaAge:item.age}
+})
+
+
+//console.log('testando meu item aqui', AdmDates)
+
+function ManageMyser(AdmDates){
+    
+    return new Promise((resolve,reject) =>{
+        setTimeout(()=>{
+            resolve(AdmDates)
+        })
+    })
+}
+
+async function ControlandoMyManageUser(AdmDates) {
+  for (const dados of AdmDates) {
+    await new Promise(resolve => setTimeout(resolve, 2000))
+    console.log(dados)
+  }
+}
+
+
+
+ControlandoMyManageUser(AdmDates).then((resposta) =>{
+       console.log("aqui tem minha respostas", resposta)
+})
