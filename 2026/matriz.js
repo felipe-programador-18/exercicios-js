@@ -4,29 +4,30 @@ const mat = [];
 // Inicializando matriz
 for (let i = 1; i <= 3; i++) {
   mat[i] = [];
+     
+     for(let j= i; j<=3;j ++){
+      // seria assim: 1+ (2x index)= 2x1=2+3 //
+       mat[i][j]= i +2 *j
+     }
 }
 
-// Preenchendo apenas a parte triangular superior
-for (let i = 1; i <= 3; i++) {
-  for (let j = i; j <= 3; j++) {
-    mat[i][j] = i + 2 * j;
-  }
+//console.log(mat);
+
+
+const arrayyyy=[]
+
+for(let i=1; i<5; i++){
+   arrayyyy[i]=[]
+   
+     for(let f=i; f<5; f++){
+        arrayyyy[i][f]= i + 2 + f
+     }
+
+
 }
+//console.log(arrayyyy)
 
-// console.log(mat);
 
-const Mach = []
-
-for(let i=1; i<= 3; i++){
-    Mach[i]=[]
-}
-
-for (let i=1; i<= 3; i ++){
-    for (let j=i; j<=3; j++){
-        Mach[i][j] = i +2 *j
-    }
-}
-console.log(Mach)
 
 
 let N= 834230948932482934023849238409n;
@@ -35,27 +36,27 @@ let N= 834230948932482934023849238409n;
 
 let Fe= ['felipe']
 const Testing = Fe.map((item) => item + "martins machado")
-console.log(Testing)
+//console.log(Testing)
 
 
-console.log(new Date())
+//console.log(new Date())
 
 
 
 var numeros = [1, 2, 3];
 numeros.push(4);
 
-console.log(numeros); // [1, 2, 3, 4]
+//console.log(numeros); // [1, 2, 3, 4]
 
 numeros.push(5, 6, 7);
 
-console.log(numeros); // [1, 2, 3, 4, 5, 6, 7]
+//console.log(numeros); // [1, 2, 3, 4, 5, 6, 7]
 
 
 
 const TestNewSometing = [11,12,13,14,15]
 TestNewSometing.push(16,17,18)
-console.log(TestNewSometing)
+//console.log(TestNewSometing)
 
 
 
@@ -74,18 +75,18 @@ try {
             "essa conta é maior que 10" :
             "encerro a conta aqui");
 
-    console.log("Mensagem:", mensagem);
+  //  console.log("Mensagem:", mensagem);
 
 } catch (error) {
-    console.error("Ocorreu um erro:", error);
+    //console.error("Ocorreu um erro:", error);
 }
 
-console.log("Resultado:", Soma(3, 4));
+//console.log("Resultado:", Soma(3, 4));
 
 
 const Myarray = [1,2,3,4]
 Myarray.splice(0,0,'felipe')
-console.log(Myarray.filter(item => !!item))
+//console.log(Myarray.filter(item => !!item))
 
 
 let v = [];
@@ -107,4 +108,4 @@ for (contador = 1; contador <= 5; contador++) {
     var j = 0;
     while (v[j] != x)
         ++j;
-    console.log(j);
+  //  console.log(j);
